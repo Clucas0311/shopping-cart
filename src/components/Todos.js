@@ -9,5 +9,8 @@ class Todos extends React.Component {
 		});
 	}
 }
+Todos.propTypes = {
+	todos: PropTypes.object.isRequired
+};
 
 export default Todos;
